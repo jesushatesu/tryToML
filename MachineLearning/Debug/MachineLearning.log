@@ -1,4 +1,5 @@
-﻿  net.cpp
+﻿  main.cpp
+  net.cpp
   neuron.cpp
   Generating Code...
-  MachineLearning.vcxproj -> C:\Users\JesusHatesU\source\repos\MachineLearning\Debug\MachineLearning.exe
+  MachineLearning.vcxproj -> W:\tryToML\MachineLearning\Debug\MachineLearning.exe

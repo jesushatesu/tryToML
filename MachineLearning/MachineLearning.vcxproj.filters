@@ -21,6 +21,9 @@
     <ClInclude Include="neuron.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="trainingSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="net.cpp">
@@ -30,6 +33,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="neuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="createTestData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trainingSetData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

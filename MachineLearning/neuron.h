@@ -17,16 +17,16 @@ public:
 	Neuron(unsigned numOutputs, unsigned index);
 	void setOutputVal(double val) { outputVals = val; };
 	double getOutputVal() const { return outputVals; };
-	void feedForward(const Layer &layer);
+	void feedForward(const Layer &prevLayer);
 	void calcOutputGradients(double x);
-	void calcHiddenGradients(Layer nextLayer);
-	void updateInputWeights(Layer prevLayer);
+	void calcHiddenGradients(const Layer &nextLayer);
+	void updateInputWeights(Layer &prevLayer);
 
 private:
 	static double randomWeight() { return rand() / double(RAND_MAX); };
 	static double activationFunc(double x);
 	static double activationFuncDerivative(double x);
-	double sumDow(Layer nextLayer);
+	double sumDow(const Layer &nextLayer) const;
 
 	double gradient;
 	double outputVals;

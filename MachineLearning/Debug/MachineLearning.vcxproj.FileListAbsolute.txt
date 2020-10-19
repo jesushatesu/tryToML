@@ -1,2 +1,4 @@
 C:\Users\JesusHatesU\source\repos\MachineLearning\Debug\MachineLearning.exe
 C:\Users\JesusHatesU\source\repos\MachineLearning\Debug\MachineLearning.pdb
+W:\tryToML\MachineLearning\Debug\MachineLearning.exe
+W:\tryToML\MachineLearning\Debug\MachineLearning.pdb
